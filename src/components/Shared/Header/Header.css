@@ -1,0 +1,129 @@
+.header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color:white;
+    display: fixed;
+    color: black;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.header-about {
+    display: flex;
+    width: 45%;
+}
+
+.header-login {
+    width: 55%;
+}
+
+.header img {
+    margin: 8px 0;
+    width: 23%;
+    height: 40%;
+}
+
+.menu .topmenu {
+    height: 45px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.menu .topmenu li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.header .menu .topmenu >li:hover .submenu{
+    transition: 0.5s;
+    display: flex;
+}
+
+.header .menu .submenu{
+    line-height: 13px;
+    display: none;
+    font-size: 13px;
+    font-weight: 400;
+    
+    overflow: hidden;
+    
+    width: fit-content;
+
+    transition: 0.5s;
+    color:rgb(81, 83, 81);
+    background: #f2eee8;
+
+    padding: 8px 0;
+}
+
+.header .menu .submenu ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.header .menu .submenu h4 {
+    margin: 8px 20px; 
+    font-weight: 600;
+}
+
+.header .menu .submenu li {
+    width: 190px;
+    cursor: pointer;
+    padding: auto 20px; 
+}
+
+.header .menu .submenu li:hover{
+    background: #e8e1d7;
+}
+
+.menu .topmenu li:hover {
+    background-color: #f2eee8;
+}
+
+.header .menu .why{
+    position: absolute;
+    top:5.9%;
+    left: 12.99%;
+}
+
+.header .menu .function{
+    position: absolute;
+    top:5.9%;
+    left: 25.44%;
+}
+
+.header .menu .contact{
+    position: absolute;
+    top:5.9%;
+    left: 30.84%;
+}
+
+.header .menu .download{
+    position: absolute;
+    top:5.9%;
+    left: 57.67%;
+}
+
+.menu .topmenu a {
+    text-decoration: none;
+    color: black
+}
+
+.menu .header-button {
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: #0061fe;
+    margin: 5px;
+    width: 25%;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu .header-button:hover {
+    background-color: #297afe;
+}
