@@ -1,0 +1,42 @@
+
+.more-opportunity {
+    background-color: #f7f5f2;
+    width: 100%;
+    height: fit-content;
+}
+
+.container {
+    padding: 100px 150px;
+}
+
+.more-opportunity  .opportunity-tittle {
+    font-size: 45px;
+    font-weight: 600;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 45px;
+}
+
+.more-opportunity  .opportunity-info {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.opportunity-info .opportunity-info-about {
+    width: 25%;
+    padding: 0 20px;
+}
+
+.opportunity-info .opportunity-info-about img {
+    width: 18%;
+}
+
+.opportunity-info-about .opportunity-info-tittle {
+    font-weight: 700;
+    margin: 30px 0;
+}
