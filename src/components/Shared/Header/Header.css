@@ -53,7 +53,7 @@
     transition: 0.5s;
     color:rgb(81, 83, 81);
     background: #f2eee8;
-
+    z-index: 2;
     padding: 8px 0;
 }
 
