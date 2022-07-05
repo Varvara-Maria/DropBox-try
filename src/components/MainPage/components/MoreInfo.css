@@ -80,12 +80,12 @@
 
 .more-info .signature .sign-button {
     color: black;
-    border-bottom: 1px solid #6bafb6;
+    border-bottom: 2px solid #6bafb688;
 }
 
 .more-info .links .sign-button {
     color: white;
-    border-bottom: 1px solid #47818b;
+    border-bottom: 2px solid #47818b;
 }
 
 .more-info .signature .sign-button:hover {
