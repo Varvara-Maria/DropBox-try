@@ -86,7 +86,7 @@ function Header() {
             </li>
             <li><NavLink activeClassName="active" to="/" className='header-text'>Регістрація</NavLink></li>
             <li><NavLink activeClassName="active" to="/" className='header-text'>Увійти</NavLink></li>
-            <button className='header-button'>Початок роботи <i class="fas fa-angle-right"></i></button>
+            <button className='button'>Початок роботи <i class="fas fa-angle-right"></i></button>
           </ul>
         </div>
       </div>
