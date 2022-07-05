@@ -1,5 +1,6 @@
 import React from 'react'
 import MainScreen from './components/MainScreen'
+import MoreInfo from './components/MoreInfo'
 import MoreOpportunity from './components/MoreOpportunity'
 
 function MainPage() {
@@ -7,6 +8,7 @@ function MainPage() {
     <div>
       <MainScreen />
       <MoreOpportunity />
+      <MoreInfo />
     </div>
   )
 }

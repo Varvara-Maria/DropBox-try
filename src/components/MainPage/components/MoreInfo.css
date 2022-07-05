@@ -1,0 +1,95 @@
+
+.more-info {
+    display: flex;
+    width: 100%;
+}
+
+.more-info .signature {
+    background-color: #14c8eb;
+    margin-right: 8px;
+}
+
+.more-info .links {
+    background-color: #007891;
+    color: white;
+    margin-left: 8px;
+}
+
+.more-info .signature, .links {
+    margin: 10px 0;
+    padding: 50px 0;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-info .dropbox {
+    font-size: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.more-info .title {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.more-info .text {
+    margin: 30px auto;
+    text-align: center;
+    width: 65%;
+}
+
+.more-info .sign-buttons {
+    display: flex;
+
+}
+
+.more-info .sign-button {
+    background-color: none;
+    border: none;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.more-info .signature .sign-button {
+    color: black;
+    border-bottom: 1px solid #6bafb6;
+}
+
+.more-info .links .sign-button {
+    color: white;
+    border-bottom: 1px solid #47818b;
+}
+
+.more-info .signature .sign-button:hover {
+    border-bottom: 2px solid #000;
+}
+
+.more-info .links .sign-button:hover {
+    border-bottom: 2px solid white;
+}
+
+.more-info .signature img {
+    width: 60%;
+    height: 50vh;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+.more-info .links img {
+    width: 70%;
+    height: 40vh;
+    height: 45vh;
+    margin: 60px auto;
+    cursor: pointer;
+}
+
