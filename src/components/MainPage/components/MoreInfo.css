@@ -2,23 +2,31 @@
 .more-info {
     display: flex;
     width: 100%;
+
+}
+
+.more-info a {
+    text-decoration: none;
+    color: black;
+    width: 50%;
 }
 
 .more-info .signature {
+    width: 100%;
     background-color: #14c8eb;
     margin-right: 8px;
+    padding: 50px 0 60px 0;
 }
 
 .more-info .links {
     background-color: #007891;
     color: white;
     margin-left: 8px;
+    padding: 50px 0 39px 0;
 }
 
 .more-info .signature, .links {
     margin: 10px 0;
-    padding: 50px 0;
-    width: 50%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -49,7 +57,9 @@
 
 .more-info .sign-buttons {
     display: flex;
-
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .more-info .sign-button {
@@ -58,6 +68,14 @@
     margin: 10px;
     text-decoration: none;
     font-weight: 700;
+}
+
+.more-info .sign-button:first-child {
+    width: 12%;
+}
+
+.more-info .signs-button {
+    width: 26%;;
 }
 
 .more-info .signature .sign-button {
@@ -89,7 +107,7 @@
     width: 70%;
     height: 40vh;
     height: 45vh;
-    margin: 60px auto;
+    margin: 50px auto;
     cursor: pointer;
 }
 

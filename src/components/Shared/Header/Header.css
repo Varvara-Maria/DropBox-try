@@ -50,13 +50,11 @@
     font-weight: 400;
     
     overflow: hidden;
-    
     width: fit-content;
-
     transition: 0.5s;
     color:rgb(81, 83, 81);
     background: #f2eee8;
-    z-index: 2;
+    z-index: 5;
     padding: 8px 0;
 }
 
@@ -86,26 +84,27 @@
 
 .header .menu .why{
     position: absolute;
-    top:5.9%;
+    top:5.9vh;
     left: 11.59%;
+
 }
 
 .header .menu .function{
     position: absolute;
-    top:5.9%;
-    left: 23.34%;
+    top:5.9vh;
+    left: 23.46%;
 }
 
 .header .menu .contact{
     position: absolute;
-    top:5.9%;
-    left: 30.31%;
+    top:5.9vh;
+    left: 30.20%;
 }
 
 .header .menu .download{
     position: absolute;
-    top:5.9%;
-    left: 56.62%;
+    top:5.9vh;
+    left: 56.72%;
 }
 
 .menu .topmenu a {
