@@ -1,8 +1,11 @@
 import React from 'react'
+import MainScreen from './components/MainScreen'
 
 function MainPage() {
   return (
-    <div></div>
+    <div>
+      <MainScreen />
+    </div>
   )
 }
 

@@ -1,0 +1,92 @@
+
+.main-screen {
+    display: flex;
+    width: 100%;
+    height: 94vh;
+
+}
+
+.main-screen .main-info {
+    background-color: #2b2929;
+    color: white;
+    width: 34%;
+    padding: 5px 25px;
+}
+
+.main-screen img {
+    width: 66%;
+}
+
+.main-screen .main-info .header-button {
+    font-size: 17px;
+    font-weight: 600;
+    color: #2b2929;
+    border: none;
+    background-color: #0061fe;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 25px;
+    margin: 80px auto;
+}
+
+.main-screen .main-info .header-button:hover {
+    background-color: #297afe;
+}
+
+.main-screen .main-info p {
+    text-decoration: none;
+    margin: 0 auto;
+
+}
+
+.main-screen .main-info .main-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+    font-size:  60px;
+    padding: 20px 0;
+    margin: 20px auto;
+}
+
+.main-screen .main-info .main-text {
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.main-screen .main-info .lines {
+    display: flex;
+    position: relative;
+}
+
+.main-screen .main-info .line {
+    width: 50%;
+    height: 2px;
+    background-color: #5d5957;
+    margin: 25px 3px;
+}
+
+.main-screen .main-info .line-white {
+    position: absolute;
+    top: 25px;
+    background-color: white;
+
+    height: 2px;
+    animation: moves 5s linear
+}
+
+.main-screen .main-info .line-white:nth-child(2) {
+    animation: moves 5s 5s linear;
+    position: absolute;
+    top: 25px;
+    left: 237px;
+    height: 2px
+}
+
+@keyframes moves {
+    from { width: 0; }
+    to { width: 50%; }
+   }
