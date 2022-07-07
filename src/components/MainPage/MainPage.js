@@ -1,4 +1,6 @@
 import React from 'react'
+import AccordionApp from './components/Accordion/AccordionApp'
+
 import DropBoxHelp from './components/DropBoxHelp'
 import MainScreen from './components/MainScreen'
 import MoreInfo from './components/MoreInfo'
@@ -11,6 +13,7 @@ function MainPage() {
       <MoreOpportunity />
       <MoreInfo />
       <DropBoxHelp />
+      <AccordionApp />
     </div>
   )
 }
