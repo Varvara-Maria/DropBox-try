@@ -58,7 +58,7 @@
 }
 
 .main-screen .main-info .lines {
-    z-index: 3;
+
     display: flex;
     position: relative;
 }

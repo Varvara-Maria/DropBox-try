@@ -1,11 +1,12 @@
 
 .dropbox-help {
     margin: 0 auto;
-    height: 5vh;
+
 }
 
-.container {
+.dropbox-help  .container {
     background-color: #f7f5f2;
+    padding: 80px;
 }
 
 .dropbox-help .help-tittle {
@@ -14,7 +15,7 @@
     margin: 0 auto;
     text-align: center;
     letter-spacing: 5px;
-}
+}   
 
 .dropbox-help .help-text {
     text-align: center;
