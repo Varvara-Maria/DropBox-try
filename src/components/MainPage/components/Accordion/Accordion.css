@@ -28,12 +28,11 @@
 
 .component {
     display: flex;
-    
 
 }
 
 .faq {
-    
+    margin-bottom: 20px;
     width: fit-content  ;
     padding: 0 50px;
     width: 50%;
@@ -77,6 +76,7 @@
 }
 
 .faq__question-button .fas {
+
     font-size: 20px;
 }
 

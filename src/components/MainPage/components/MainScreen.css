@@ -17,7 +17,7 @@
     width: 66%;
 }
 
-.main-screen .main-info .header-button {
+.button {
     font-size: 17px;
     font-weight: 600;
     color: #2b2929;
@@ -32,7 +32,7 @@
     margin: 80px auto;
 }
 
-.main-screen .main-info .header-button:hover {
+.button:hover {
     background-color: #297afe;
 }
 
