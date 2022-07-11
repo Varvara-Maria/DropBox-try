@@ -6,6 +6,7 @@ import ForWhat from './components/ForWhat'
 import MainScreen from './components/MainScreen'
 import MoreInfo from './components/MoreInfo'
 import MoreOpportunity from './components/MoreOpportunity'
+import Tools from './components/Tools'
 
 function MainPage() {
   return (
@@ -16,6 +17,7 @@ function MainPage() {
       <DropBoxHelp />
       <AccordionApp />
       <ForWhat />
+      <Tools />
     </div>
   )
 }
