@@ -4,6 +4,7 @@ import {BrowserRouter} from 'react-router-dom';
 import {Routes, Route} from 'react-router';
 import Header from './components/Shared/Header/Header';
 import MainPage from './components/MainPage/MainPage';
+import Footer from './components/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route  path ="/" exact element = {<MainPage />}  /> 
         </Routes> 
+        <Footer />
       </BrowserRouter>
     </div>
   );
