@@ -1,7 +1,6 @@
 
 .tools {
     background-color:  #f7f5f2;
-    position: absolute;
 }
 
 .containeri {
@@ -19,11 +18,7 @@
 }
 
 .tools .tools_link {
-    position: relative;
-
-    left: 25%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    margin-left: 26%;
     text-decoration: none;
     color: #000;
     border-bottom: 2px solid #000;
